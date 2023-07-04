@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body{
+    background-color: #F46D25;
+    color: purple;
+}
+
+
+.post-markdown-container p {
+    text-align: justify;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    margin-left: 1.4rem;
+    margin-right: 2.4rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.post-markdown-container img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+@media (max-width: 1100px) {
+    .post-markdown-container p {
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 744px) {
+    .post-markdown-container p {
+        font-size: 1rem;
+        line-height: 1.75rem;
+    }
+}
+
+@media (max-width: 912px) {
+    .post-markdown-container p {
+        margin-right: 2em;
+        margin-left: .9em;
+        font-size: 1.7rem;
+        line-height: 2.25rem;
+    }
+
+    .post-markdown-container img {
+        display: block;
+        width: 500px;
+    }
+}
+
+@media (max-width: 820px) {
+    .post-markdown-container p {
+        margin-right: 2em;
+        margin-left: .9em;
+        font-size: 1.7rem;
+        line-height: 2rem;
+    }
+
+    .post-markdown-container img {
+        display: block;
+        width: 500px;
+    }
+}
+
+@media (max-width: 540px) {
+    .post-markdown-container p {
+        margin-right: 2.5em;
+        margin-left: .1em;
+        font-size: 1.3rem;
+        line-height: 1.90rem;
+    }
+
+    .post-markdown-container img {
+        display: block;
+        width: 360px;
+    }
+    
+}
+
+@media (max-width: 414px) {
+    .post-markdown-container p {
+        margin-right: 2.5em;
+        margin-left: .1em;
+        font-size: 1.3rem;
+        line-height: 1.75rem;
+    }
+
+    .post-markdown-container img {
+        display: block;
+        width: 250px;
+    }
+    
+}
+
+
+@media (max-width: 412px) {
+    .post-markdown-container img {
+        width: 310px;
+    }
+    
+}
+
+@media (max-width: 375px) {
+    .post-markdown-container p {
+        margin-right: 2.5em;
+        margin-left: .1em;
+        font-size: 1.3rem;
+        line-height: 1.75rem;
+    }
+
+    .post-markdown-container img {
+        display: block;
+        width: 250px;
+    }
+    
+}
+
+@media (max-width: 280px) {
+    .post-markdown-container p {
+        margin-right: 1em;
+        margin-left: .1em;
+        font-size: 1.3rem;
+        line-height: 1.60rem;
+    }
+
+    .post-markdown-container img {
+        display: block;
+        width: 200px;
+    }
+    
+}

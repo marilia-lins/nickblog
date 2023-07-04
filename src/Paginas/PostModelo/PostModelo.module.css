@@ -1,0 +1,52 @@
+@import url('https://fonts.cdnfonts.com/css/nickelodeon-sans');
+
+.postContainer {
+    position: relative;
+}
+
+.topo,
+.titulo {
+    height: 150px;
+}
+
+.topo {
+    width: 100%;
+    box-shadow: 0 -5px 6px rgba(0, 0, 0, 0.08);
+} 
+
+.titulo {
+    font-family: 'Futura Maxi CG Bold', sans-serif;
+    padding: 0 7.5rem;
+    font-size: 3rem;
+    display: flex;
+    color: #F46D25;
+    align-items: center;
+}
+
+.conteudo {
+    padding: 1rem 6rem 3rem;
+}
+
+@media (max-width: 744px) {
+    .conteudo {
+        padding: 2rem 1.5rem 1.5rem;
+    }
+}
+
+@media (max-width: 744px) {
+
+    .topo,
+    .titulo {
+        height: 104px;
+        padding-left: 3.2rem;
+    }
+
+    .titulo {
+        padding: 0 1rem;
+        font-size: 2rem;
+    }
+
+    .conteudo {
+        padding: 2rem 1rem 1.5rem;
+    }
+}

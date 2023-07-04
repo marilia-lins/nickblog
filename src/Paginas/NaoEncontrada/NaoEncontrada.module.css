@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.container{
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    text-align: center;
+    background-color: black;
+    color: #F46D25;
+    padding: 0 1.5rem 6.5rem;
+}
+
+.titulo404{
+    display: block;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+}
+
+.titulo{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.paragrafo{
+    margin-top: 2rem;
+    font-size: 1.7rem;
+    line-height: 1rem;
+}
+
+@media (max-width: 1100px) {    
+    .titulo404 {
+        margin-bottom: 2.25rem;
+    }
+
+    .paragrafo{
+        line-height: 1.5rem;
+    }
+
+    .botao {
+        margin-top: 2.75rem;
+        margin-left: 15vw;
+    }
+
+    .imagemCachorro {
+        height: 50vw;
+        bottom: calc(-50vw * 0.65);
+        left: 40vw;
+    }
+
+}
+
+@media (max-width: 744px) {
+    .container {
+        padding: 3rem 1rem 17rem;
+    }
+
+    .titulo404 {
+        font-size: 4rem;
+    }
+
+    .titulo {
+        font-size: 2.25rem;
+        line-height: 3rem;
+    }
+
+    .paragrafo {
+        font-size: 1.125rem;
+        line-height: 1.3125rem;
+    }
+
+    .botao {
+        margin: 2.5rem 0 0;
+        text-align: center;
+    }
+
+}
+

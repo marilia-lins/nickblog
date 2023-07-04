@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.postsTitulo{
+    font-family: 'Roboto', sans-serif;
+    color: purple;
+    font-size: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.postsFinais{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+}

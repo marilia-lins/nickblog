@@ -1,0 +1,15 @@
+.nav{
+    height: 55px;
+    background-color: #F46D25;
+    display: flex;
+    justify-content: right;
+    padding-right: 3rem;
+    align-items: center;
+    column-gap: 3rem;
+}
+
+@media (max-width: 744px) {
+    .nav {
+        height: 70px;
+    }
+}

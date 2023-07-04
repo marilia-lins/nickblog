@@ -1,0 +1,20 @@
+@import url('https://fonts.cdnfonts.com/css/futura-maxi-cg-bold');
+
+.link{
+    font-family: 'Futura Maxi CG Bold', sans-serif;
+    color: purple;
+    padding: 20px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.clickedLink{
+    text-decoration: underline;
+}
+
+@media (max-width: 280px) {
+    .link {
+        padding: 0 .1em 0 .1em;
+        font-size: 1em;
+    }
+}

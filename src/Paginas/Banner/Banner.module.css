@@ -1,0 +1,151 @@
+@import url('https://fonts.cdnfonts.com/css/nickelodeon-sans');
+@import url('https://fonts.cdnfonts.com/css/futura-maxi-cg-bold');
+
+.banner{
+    padding: 3rem 7.5rem 6rem;
+    background-color: purple;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.title{
+    font-family: 'Nickelodeon Sans', sans-serif;
+    font-size: 6rem;
+    color: #fff;
+    margin: 3rem;
+}
+
+.intro{
+    font-family: 'Futura Maxi CG Bold', sans-serif;
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.image{
+    position: relative;
+    height: 400px;
+}
+
+.img{
+    position: absolute;
+    right: 3vw;
+    width: 30vw;
+}
+
+@media (max-width: 1300px) {    
+    .banner {
+        padding: 3.5rem 1.5rem;
+    }
+
+    .image{
+        height: 320px;
+    }
+
+    .img{
+        width: 25vw;
+    }
+}
+
+@media (max-width: 1100px) {    
+    .banner {
+        padding: 3.5rem 1.5rem;
+    }
+
+    .image{
+        height: 338px;
+    }
+
+    .img{
+        width: 25vw;
+    }
+}
+
+@media (max-width: 1024px) {    
+
+    .image {
+        padding-top: 4em;
+    }
+}
+
+@media (max-width: 963px) {
+    .banner {
+        padding: 2rem 1rem;
+        display: block;
+    }
+
+    .title {
+        margin-bottom: 2rem;
+    }
+
+    .intro {
+        margin-bottom: 0.1rem;
+    }
+
+    .image {
+        height: 100px;
+    }
+
+    .img {
+        display: none;
+    }
+
+}
+
+@media (min-width: 375px) {    
+
+    .intro{
+        margin-left: 1em;
+    }
+
+}
+
+@media (min-width: 375px) {    
+    .banner {
+        padding: 1rem 1rem 1.2rem 1.2rem;
+    }
+
+    .text{
+        margin: 1em;
+        font-size: 2rem;
+    }
+
+    .title {
+        margin-top: 0;
+        margin-bottom: 1.7rem;
+        font-size: 5rem;
+    }
+}
+
+@media (min-width: 360px) {    
+    .banner {
+        padding: 1rem 1rem 1.2rem 1.2rem;
+    }
+
+    .text{
+        margin: 1em;
+        font-size: 2rem;
+    }
+
+    .title {
+        margin-top: 0;
+        margin-bottom: 1.7rem;
+        font-size: 5rem;
+    }
+}
+
+@media (min-width: 280px) {    
+
+    .text{
+        margin-left: .3em;
+        font-size: 1.2rem;
+    }
+
+    .title {
+        margin-top: 0;
+        margin-bottom: 1.7rem;
+        font-size: 4rem;
+    }
+}
+
